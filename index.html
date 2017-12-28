@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Melanie's Portfolio</title>
+    
+    <!-- Bringing in stylesheets -->
+<!--        <link rel="stylesheet" href="assets/css/normalize.css">-->
+        <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Bringing in fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Shadows+Into+Light+Two" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <div class="full-width">
+        <div class="half-width">
+          <nav>
+            <ul>
+              <li><a href="#"><img id ="dropdown-menu" src="assets/img/dropdown.png"></a>
+                  <ul id ="menu-items">
+                    <li><a href="#about">About</a></li>
+                      <li><a href="#work">Work</a></li>
+                      <li><a href="#contact">Contact</a></li>  
+                  </ul>
+              </li>
+            </ul>
+              <ul>
+                  <li><a id="github-logo" href="https://github.com/mmacdonald1"><img src="assets/img/github.png"></a></li>
+                  <li><a  id ="linkedin-logo" href="https://www.linkedin.com/in/melanie-macdonald1/"><img src="assets/img/linkedin.png"></a></li>
+              </ul>
+          </nav>
+        </div>
+         <div class="half-width">
+          <h1 id= "header-text">Hi! I'm Melanie, a Full Stack Developer.</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="full-width">
+          <h2>A little about me...</h2>
+            <div class="half-width">
+              <p>I've made my home base in Providence, Rhode Island with my small growing family. My journey into tech started with a degree in journalism. As I started sharing my writing online, I was fascinated with how easily I could get my voice out there. I was hooked and wanted to learn how to build my own site to fit my own specific needs.
+              </p>
+            </div>
+            <div class="half-width">
+              <p>That curiosity then opened a door that could never be shut. When I learned how to build my first website, I realized I found something that gave me the freedom & versatility I was looking for in my work. Now I've made a full switch to front-end development, where I can use my organization skills and eye for detail to write clean, elegant code.
+              </p>
+            </div>
+        </div>
+      </section>
+
+      <section id="work">
+       <h2>My Work</h2>
+        <div class="full-width">
+          <div class="third-width">
+            <img src="assets/img/Mind_Reader.png" alt="Mind Reader preview"/>
+            <div class="overlay">
+              <h3 class="project-title">Mind Reader</h3>
+              </div>
+          </div>
+          
+          
+          <div class="third-width">
+            <img src="assets/img/HitchHyker.png" alt="HitchHyker Preview"/>
+             <div class="overlay">
+              <h3 class= "project-title">HitchHyker</h3>
+             </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="contact">
+        <div class="full-width">
+          <div class="half-width">
+            <img src="assets/img/me.jpg" id="contact-img" alt="Contact picture"/>
+          </div>
+          <div class="half-width" id="contact-info">
+            <h2>Lets Chat!</h2>
+                   <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Name</label>
+                                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                              </div>
+                                
+                              <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                              </div>
+                              
+                              <div class="form-group">
+                                <label for="exampleFormControlSelect2">Message</label>
+                                  <textarea type="message" class="form-control" id="exampleFormControlInput3" placeholder="Your message here."></textarea>
+                                  </div>
+                                <button type="submit" class="btn">Submit</button>
+                            </form>
+            </div>
+          </div>
+        </footer>
+    </main>
+    
+</body>
+<!-- Added a link to Javascript files-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+</html>
