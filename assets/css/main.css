@@ -190,7 +190,7 @@ nav ul{
 }
 
     #dropdown-menu{
-        width:15%;
+        width:10%;
     }
 
     #menu-items{
@@ -455,9 +455,58 @@ textarea{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (min-width: 700px) {
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+/* Header =========================== */    
+    #dropdown-menu{
+        display:none;
+    }
+    #menu-items{
+         display:flex;
+        flex-direction: row;
+        float:left;
+    }
+    nav ul li ul li a{
+        width:10%;
+        color: #eeeeee;
+        background-color:#060B10;
+        border:none;
+        margin-right: 20px;
+    }
+    #github-logo, #linkedin-logo{
+    display: flex; 
+    float:right;
+    margin:5px 10px;
+}
+    nav{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #0E1A26;
+}
+    
+    #icons{
+         display: flex;
+         margin-left:55%;
+    }
+
+/* About =========================== */
+#about-container{
+display: flex;
+justify-content: center;
+}
+    
+    .about-p{
+        width:45%;
+        margin:15px;
+    }  
+    
+/* Work =========================== */
+  
+    
+}
+
+@media only screen and (min-width: 940px){
+    
 }
 
 @media print,
