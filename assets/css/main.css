@@ -178,15 +178,16 @@ header{
 #myVideo{
     right: 0;
     bottom: 0;
-    width: 900px; 
-    height: 600px;
+    width: 100%; 
     overflow: hidden;
 }
 
 #header-text{
     z-index: 2;
+    position: absolute;
+    top:250px;
+    left:100px;
     text-align: center;
-    padding-top: 200px;
     
 }
 
