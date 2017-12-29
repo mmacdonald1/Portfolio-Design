@@ -124,11 +124,11 @@ body,html{
 }
 
 h1{
-   font-size:1.8em;
+   font-size:2em;
    font-family: 'Shadows Into Light Two', cursive; 
 }
 h2{
-    font-size: 1.4em;
+    font-size: 1.8em;
      font-family: 'Shadows Into Light Two', cursive; 
 }
 
@@ -169,9 +169,22 @@ header{
     height: 500px;
 }
 
+#video-container{
+  width: 900px; 
+  height: 600px;
+  overflow: hidden;   
+}
+
+#myVideo{
+    right: 0;
+    bottom: 0;
+    width: 900px; 
+    height: 600px;
+    overflow: hidden;
+}
 
 #header-text{
-    z-index: 15;
+    z-index: 2;
     text-align: center;
     padding-top: 200px;
     
@@ -460,19 +473,28 @@ textarea{
         display:none;
     }
     #menu-items{
-         display:flex;
-        flex-direction: row;
+         display: flex;
     }
+    
+    .nav-items{
+        float: left;
+    }
+    #nav-container{
+        width:100%;
+    }
+    
     nav ul li ul li a{
         width:10%;
         color: #eeeeee;
         background-color:#060B10;
         border:none;
-        margin-right: 20px;
+        margin-right: 10px;
+        margin-left: 15px;
     }
     #github-logo, #linkedin-logo{
     display: flex;
-    justify-content: flex-end;
+    width:10%;
+    float:right;
     margin:5px 10px;
 }
     nav{
@@ -481,16 +503,16 @@ textarea{
     border-bottom: 1px solid #0E1A26;
 }
     
-    #icons{
-         display: flex;
-         margin-left:55%;
-    }
 
 /* About =========================== */
 #about-container{
 display: flex;
 justify-content: center;
 }
+
+    #about h2{
+        margin-left: 3%;
+    }
     
     .about-p{
         width:45%;
@@ -521,7 +543,7 @@ justify-content: center;
     #contact-img{
      display: flex;
      margin-left:120px;
-     width: 60%;
+     height: 300px;
      border: 5px solid #eeeeee;
      margin-bottom: 30px;
      margin-top: 10px;

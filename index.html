@@ -16,22 +16,26 @@
       <div class="full-width">
         <div class="half-width">
           <nav>
+           <div id="nav-container">
             <ul>
               <li><a href="#"><img id ="dropdown-menu" src="assets/img/dropdown.png"></a>
                   <ul id ="menu-items">
-                    <li><a href="#about">About</a></li>
-                      <li><a href="#work">Work</a></li>
-                      <li><a href="#contact">Contact</a></li>  
+                    <li><a class="nav-items" href="#about">About</a></li>
+                      <li><a href="#work" class="nav-items" >Work</a></li>
+                      <li><a class="nav-items" href="#contact">Contact</a></li> 
+                       <li style="float:right"><a id="github-logo" href="https://github.com/mmacdonald1"><img src="assets/img/github.png"></a></li>
+                         <li style="float:right"><a  id ="linkedin-logo" href="https://www.linkedin.com/in/melanie-macdonald1/"><img src="assets/img/linkedin.png"></a></li> 
                   </ul>
               </li>
             </ul>
-              <ul id="icons">
-                  <li><a id="github-logo" href="https://github.com/mmacdonald1"><img src="assets/img/github.png"></a></li>
-                  <li><a  id ="linkedin-logo" href="https://www.linkedin.com/in/melanie-macdonald1/"><img src="assets/img/linkedin.png"></a></li>
-              </ul>
+             
+              </div>
           </nav>
         </div>
-         <div class="half-width">
+         <div class="half-width" id= "video-container">
+             <video autoplay muted loop id="myVideo">
+              <source src="assets/img/fireflies.mp4" type="video/mp4">
+            </video>
           <h1 id= "header-text">Hi! I'm Melanie, a Full Stack Developer.</h1>
         </div>
       </div>
