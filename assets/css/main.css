@@ -120,7 +120,7 @@ body,html{
    font-family: 'Noto Sans', sans-serif;
    font-size:16px;
    color: #eeeeee;
-   background-color: #060B10;
+   
 }
 
 h1{
@@ -169,25 +169,32 @@ header{
     height: 500px;
 }
 
-#video-container{
-  width: 900px; 
-  height: 600px;
-  overflow: hidden;   
-}
-
-#myVideo{
+.col-lg-12{
+    z-index: -1;
     right: 0;
     bottom: 0;
     width: 100%; 
     overflow: hidden;
+    padding: 0;
 }
+video{
+ width:100%;   
+}
+#
 
+#video-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 1500px;
+}
 #header-text{
-    z-index: 2;
     position: absolute;
-    top:250px;
+    top:200px;
     left:100px;
-    text-align: center;
+    
     
 }
 
@@ -196,7 +203,10 @@ header{
 }
 
 nav{
+    background-color: #060B10;
     border-bottom: 1px solid #0E1A26;
+    padding-left:30px;
+    padding-top: 10px;
 }
 
 nav ul{
@@ -222,21 +232,25 @@ nav ul{
     }
 
         nav ul li ul li a:hover{
-            background-color: #f3f3f3;
+            text-decoration: none;
+            color:#F0E1AE;
         }
 
 /* About =========================== */
 #about{
+    z-index: 2;
     background-color:#142429;
     padding:15px;
 }
 
 #about h2{
+    z-index: 2;
     padding: 30px 0px;
     
 }
 
 #about p{
+    z-index: 2;
     padding-bottom: 30px;
 }
 
@@ -250,7 +264,7 @@ nav ul{
     padding: 10px;
 }
 
-#work h2{
+#work h2{ 
     padding: 30px 0px;
 }
 
@@ -476,7 +490,9 @@ textarea{
     #menu-items{
          display: flex;
     }
-    
+    .nav{
+        padding-left: 0;
+    }
     .nav-items{
         float: left;
     }
@@ -492,6 +508,16 @@ textarea{
         margin-right: 10px;
         margin-left: 15px;
     }
+    .col-lg-2{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .col-lg-10{
+        float:right;
+        width:100%;
+         padding-right: 40px;
+    }
     #github-logo, #linkedin-logo{
     display: flex;
     width:10%;
@@ -504,6 +530,9 @@ textarea{
     border-bottom: 1px solid #0E1A26;
 }
     
+    #myVideotwo{
+        display:none
+    }
 
 /* About =========================== */
 #about-container{
@@ -524,12 +553,17 @@ justify-content: center;
   
     #work-container {
         display: flex; 
-        justify-content: flex-start;
+        justify-content: space-between;
+        
+        flex-direction: row;
+        flex-wrap:wrap;
         margin: 0;
     }
     .third-width{
-        width:40%;
+        width: 30%;
+        margin: 5px;
     }
+
 
 /* Contact =========================== */
     #contact{

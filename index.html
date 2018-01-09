@@ -6,52 +6,65 @@
     <title>Melanie's Portfolio</title>
     
     <!-- Bringing in stylesheets -->
-<!--        <link rel="stylesheet" href="assets/css/normalize.css">-->
+         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/main.css">
+        
     <!-- Bringing in fonts -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Shadows+Into+Light+Two" rel="stylesheet">
 </head>
 <body>
     <header>
-      <div class="full-width">
-        <div class="half-width">
+      <div class="col-lg-12">
+        
           <nav>
-           <div id="nav-container">
+           <div class= "row" id="nav-container">
             <ul>
               <li><a href="#"><img id ="dropdown-menu" src="assets/img/dropdown.png"></a>
                   <ul id ="menu-items">
-                    <li><a class="nav-items" href="#about">About</a></li>
-                      <li><a href="#work" class="nav-items" >Work</a></li>
-                      <li><a class="nav-items" href="#contact">Contact</a></li> 
-                       <li style="float:right"><a id="github-logo" href="https://github.com/mmacdonald1"><img src="assets/img/github.png"></a></li>
-                         <li style="float:right"><a  id ="linkedin-logo" href="https://www.linkedin.com/in/melanie-macdonald1/"><img src="assets/img/linkedin.png"></a></li> 
+                   <div class = "col-lg-2">
+                        <li><a class="nav-items" href="#about">About</a></li>
+                          <li><a href="#work" class="nav-items" >Work</a></li>
+                          <li><a class="nav-items" href="#contact">Contact</a></li> 
+                      </div>
+                      <div class= "col-lg-10">
+                           <li style="float:right"><a id="github-logo" href="https://github.com/mmacdonald1"><img src="assets/img/github.png"></a></li>
+
+                             <li style="float:right"><a  id ="linkedin-logo" href="https://www.linkedin.com/in/melanie-macdonald1/"><img src="assets/img/linkedin.png"></a></li> 
+                        </div>
                   </ul>
               </li>
             </ul>
              
               </div>
           </nav>
-        </div>
-         <div class="half-width" id= "video-container">
+        
+         <div class="col-lg-12" id= "video-container">
+            <h1 id= "header-text">Hi! I'm Melanie, a Full Stack Developer.</h1>
              <video autoplay muted loop id="myVideo">
               <source src="assets/img/fireflies.mp4" type="video/mp4">
             </video>
-          <h1 id= "header-text">Hi! I'm Melanie, a Full Stack Developer.</h1>
+            
+            <video autoplay muted loop id="myVideotwo">
+              <source src="assets/img/fireflies.mp4" type="video/mp4">
+            </video>
+          
         </div>
       </div>
     </header>
 
     <main>
-      <section id="about">
+      <section class = "col-lg-12" id="about">
        
-        <div class="full-width">
+        <div class="row">
            <h2>A little about me...</h2>
          <div id="about-container">
-            <div class="about-p">
+            <div class="about-p col-lg-3">
               <p>I've made my home base in Providence, Rhode Island with my small growing family. My journey into tech started with a degree in journalism. As I started sharing my writing online, I was fascinated with how easily I could get my voice out there. I was hooked and wanted to learn how to build my own site to fit my own specific needs.
               </p>
             </div>
-            <div class="about-p">
+            <div class="about-p col-lg-3">
               <p>That curiosity then opened a door that could never be shut. When I learned how to build my first website, I realized I found something that gave me the freedom & versatility I was looking for in my work. Now I've made a full switch to front-end development, where I can use my organization skills and eye for detail to write clean, elegant code.
               </p>
             </div>
@@ -63,13 +76,14 @@
        <h2>My Work</h2>
         <div class="full-width" id="work-container">
           <div class="third-width">
+           
             <img id="mind-reader-img" src="assets/img/Mind_Reader.png" alt="Mind Reader preview"/>
             <div id="mind-reader-overlay" class="overlay">
               <h3 class="project-title">Mind Reader</h3>
               </div>
           </div>
           
-                  <!-- The Modal -->
+                  <!-- Mind Reader Modal -->
         <div id="Mind_Reader_modal" class="modal">
 
           <!-- Modal content -->
@@ -92,6 +106,49 @@
               <h3 class= "project-title">HitchHyker</h3>
              </div>
           </div>
+          
+          <div class="third-width">
+            <img src="assets/img/Leg_Work.png" alt="Leg Work Preview"/>
+             <div class="overlay">
+              <h3 class= "project-title">Leg Work</h3>
+             </div>
+          </div>
+          
+           <div class="third-width">
+            <img src="assets/img/Mongo_NewsScraper.png" alt="Mongo News Scraper Preview"/>
+             <div class="overlay">
+              <h3 class= "project-title">Mongo News Scaper</h3>
+             </div>
+          </div>
+          
+           <div class="third-width">
+            <img src="assets/img/Bamazon.png" alt="Bamazon Preview"/>
+             <div class="overlay">
+              <h3 class= "project-title">Bamazon</h3>
+             </div>
+          </div>
+          
+           <div class="third-width">
+            <img src="assets/img/Giphy_Generator.png" alt="Giphy Generator Preview"/>
+             <div class="overlay">
+              <h3 class= "project-title">Giphy Generator</h3>
+             </div>
+          </div>
+          
+           <div class="third-width">
+            <img src="assets/img/Cake_Collector.png" alt="Cake Collector Preview"/>
+             <div class="overlay">
+              <h3 class= "project-title">Cake Collector</h3>
+             </div>
+          </div>
+          
+           <div class="third-width">
+            <img src="assets/img/Doggie_Hangman.png" alt="Doggie Hangman Preview"/>
+             <div class="overlay">
+              <h3 class= "project-title">Doggie Hangman</h3>
+             </div>
+          </div>
+          
         </div>
       </section>
 
