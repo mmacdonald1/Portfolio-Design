@@ -256,11 +256,12 @@ nav ul{
 
 
 /* Work =========================== */
-#work{
-    background-color:#BDA789;
-    text-align: center;
-    padding: 10px;
-}
+  #work{
+        background-color:#773439;
+        background-image: none;
+        height:400px;
+    }
+
 
 #work h2{ 
     padding: 30px 0px;
@@ -548,11 +549,18 @@ justify-content: center;
     }  
     
 /* Work =========================== */
+  #work{
+    background-image:url("../img/girl.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    height:500px;
+
+}
   
     #work-container {
         display: flex; 
         justify-content: space-between;
-        
         flex-direction: row;
         flex-wrap:wrap;
         margin: 0;
@@ -594,6 +602,10 @@ justify-content: center;
 
 @media only screen and (min-width: 940px){
     #video-container{
+        height: 700px;
+    }
+    
+    #work{
         height: 700px;
     }
 }

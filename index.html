@@ -6,16 +6,18 @@
     <title>Melanie's Portfolio</title>
     
     <!-- Bringing in stylesheets -->
-         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css">
         
     <!-- Bringing in fonts -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Shadows+Into+Light+Two" rel="stylesheet">
 </head>
 <body>
     <header>
+     
+    <!--- Navbar --->
       <div class="col-lg-12">
         
           <nav>
@@ -34,14 +36,17 @@
                              <li style="float:right"><a  id ="linkedin-logo" href="https://www.linkedin.com/in/melanie-macdonald1/"><img src="assets/img/linkedin.png"></a></li> 
                         </div>
                   </ul>
-              </li>
-            </ul>
+               </li>
+             </ul>
              
-              </div>
+            </div>
           </nav>
         
+        <!--- MP4 --->
          <div class="col-lg-12" id= "video-container">
             <h1 id= "header-text">Hi! I'm Melanie, a Full Stack Developer.</h1>
+            <button>Hire Me</button>
+            <button>See my Work</button>
              <video autoplay muted loop id="myVideo">
               <source src="assets/img/fireflies.mp4" type="video/mp4">
             </video>
@@ -54,134 +59,17 @@
       </div>
     </header>
 
-      <section class = "col-lg-12" id="about">
-       
-        <div class="row">
-           <h2>A little about me...</h2>
-         <div id="about-container">
-            <div class="about-p col-lg-3">
-              <p>I am a recent biology graduate with an artistic flare and a love of challenges. My journey into coding began with college coursework in statistics programming and animation. I took the leap and invested in online coursework in front-end development and from there I was hooked. Soon I was signed up for a full stack program to learn web development and optimize my front-end skills.
-              </p>
-            </div>
-            <div class="about-p col-lg-3">
-              <p>In the last year, I have immersed myself in JavaScript, front-end technologies, and server side communication. I love taking on complex real world problems that exercise my coding knowledge and self teaching abilities.  Whether it is creating a travel budget app or a mobile cookbook, I bring my confidence, nerdiness, and artistic wow to create user friendly applications.
+     
+      
 
-              </p>
-            </div>
-            </div>
-        </div>
-      </section>
-
-      <section id="work" class = "col-lg-12">
-       <h2>My Work</h2>
-        <div class="full-width" id="work-container">
-          <div class="third-width">
-           
-            <img id="mind-reader-img" src="assets/img/Mind_Reader.png" alt="Mind Reader preview"/>
-            <div id="mind-reader-overlay" class="overlay">
-              <h3 class="project-title">Mind Reader</h3>
-              </div>
-          </div>
-          
-                  <!-- Mind Reader Modal -->
-        <div id="Mind_Reader_modal" class="modal">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <div class="modal-header">
-              <span class="close">&times;</span>
-              <h2>Mind Reader</h2>
-            </div>
-            <img id="mind-reader-img" src="assets/img/Mind_Reader.png" alt="Mind Reader preview"/>
-            <p>Developed a user friendly UI to take in user search terms for AJAX calls to two different APIs and output desired product data</p>
-          </div>
-
-        </div>
-
-          
-          
-          <div class="third-width">
-            <img src="assets/img/HitchHyker.png" alt="HitchHyker Preview"/>
-             <div class="overlay">
-              <h3 class= "project-title">HitchHyker</h3>
-             </div>
-          </div>
-          
-          <div class="third-width">
-            <img src="assets/img/Leg_Work.png" alt="Leg Work Preview"/>
-             <div class="overlay">
-              <h3 class= "project-title">Leg Work</h3>
-             </div>
-          </div>
-          
-           <div class="third-width">
-            <img src="assets/img/Mongo_NewsScraper.png" alt="Mongo News Scraper Preview"/>
-             <div class="overlay">
-              <h3 class= "project-title">Mongo News Scaper</h3>
-             </div>
-          </div>
-          
-           <div class="third-width">
-            <img src="assets/img/Bamazon.png" alt="Bamazon Preview"/>
-             <div class="overlay">
-              <h3 class= "project-title">Bamazon</h3>
-             </div>
-          </div>
-          
-           <div class="third-width">
-            <img src="assets/img/Giphy_Generator.png" alt="Giphy Generator Preview"/>
-             <div class="overlay">
-              <h3 class= "project-title">Giphy Generator</h3>
-             </div>
-          </div>
-          
-           <div class="third-width">
-            <img src="assets/img/Cake_Collector.png" alt="Cake Collector Preview"/>
-             <div class="overlay">
-              <h3 class= "project-title">Cake Collector</h3>
-             </div>
-          </div>
-          
-           <div class="third-width">
-            <img src="assets/img/Doggie_Hangman.png" alt="Doggie Hangman Preview"/>
-             <div class="overlay">
-              <h3 class= "project-title">Doggie Hangman</h3>
-             </div>
-          </div>
-          
-        </div>
-      </section>
 
       <footer id="contact" class="col-lg-12">
         <div class="full-width" id="contact-container">
           <div class="contact-half" id="contact-info">
-            <h2>Lets Chat!</h2>
-            <h3>Send me an email to talk opportunities or just to grab a cup of coffee. </h3>
-           <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Name:</label>
-                        <br>
-                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-                      </div>
-
-                      <div class="form-group">
-                        <label for="exampleFormControlInput1">Email:</label>
-                        <br>
-                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
-                      </div>
-
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect2">Message:</label>
-                         <br>
-                          <textarea type="message" class="form-control" id="exampleFormControlInput3" placeholder="Your message here."></textarea>
-                          </div>
-                        <button type="submit" class="btn">Submit</button>
-                    </form>
+            <img src= "assets/img/linkedin.png">  
+            <img src= "assets/img/github.png">   
             </div>
-             <div class="contact-half">
-            <img src="assets/img/me.jpg" id="contact-img" alt="Contact picture"/>
-          </div>
-          </div>
+        
         </footer>
 
     
