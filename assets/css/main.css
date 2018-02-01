@@ -175,7 +175,7 @@ p{
 nav{
     background-color: #060B10;
     border-bottom: 5px solid #0E1A26;
-    padding-left:30px;
+    padding-left:10px;
     padding-top: 10px;
 }
 
@@ -289,7 +289,7 @@ z-index: -100;
 
 /* About =========================== */
 .imageContainer{
-    height: 550px;
+    height: 570px;
     background-image:url("../img/artpic.png");
     background-size: cover;
     padding: 0;
@@ -308,7 +308,7 @@ z-index: -100;
     padding: 15px;
     border-radius:5px;
     opacity: 0.75;
-    
+    font-size: 0.9em;
 }
 
 #about{
@@ -318,7 +318,27 @@ z-index: -100;
     
 }
 
-
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.skillsTitle{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.skills ul{
+    list-style: none;
+    font-size: 1.3em;
+    font-family:  'Shadows Into Light Two', cursive;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.skills ul li{
+    margin-top: 5px;
+}
 
 
 
@@ -578,11 +598,12 @@ textarea{
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        padding:0;
     }
     .col-lg-10{
         float:right;
         width:100%;
-         padding-right: 40px;
+        padding-right: 40px;
     }
     #github-logo, #linkedin-logo{
     display: flex;
