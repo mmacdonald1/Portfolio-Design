@@ -122,8 +122,7 @@ font-family: 'Noto Sans', sans-serif;
 body,html{
    font-family: 'Noto Sans', sans-serif;
    font-size:16px;
-   color: #eeeeee;
-   
+   color: #eeeeee;  
 }
 html [type=button]{
   -webkit-appearance: none;
@@ -143,77 +142,38 @@ h3{
 }
 
 a{
-    font-weight:bold;
+    font-weight:400;
     color:#773439;
     text-decoration:none;
 }
+    a:hover{
+    text-decoration:none;
+    }
 p{
     font-size:1em;
 }
 
 .btn{
     background-color: #773439;
-    color: #eeeeee;
-    font-weight: 700;
+    color: #fff;
+    font-weight: 400;
     text-transform: uppercase;
     line-height: 2.5;
     text-align: center;
     height: 3.5em;
-    width: 100%;
-    display: block;
+    width: 10%;
     border:none;
+    margin:10px;
+    z-index: 100;
 }
     .btn:hover{
         background-color: #B04D54;
     }
 
-/* Header =========================== */
-
-.col-lg-12{
-    padding:0;
-}
-
-video{
-z-index: -100;
- width:100%;   
-}
-
-#video-container{
-/*    z-index: -100;*/
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    background-color: black;
-}
-#myVideo{
-  display: none;
-}
-
-.home{
-    display: flex;
-    justify-content: center;
-    vertical-align: center;
-}
-.homeText{
-   position: absolute;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   text-align: center;
-   margin-top: 100px; 
-}
-
-
-#github-logo, #linkedin-logo{
-    display: none;
-}
-
+/* Navbar =========================== */
 nav{
     background-color: #060B10;
-    border-bottom: 3px solid #0E1A26;
+    border-bottom: 5px solid #0E1A26;
     padding-left:30px;
     padding-top: 10px;
 }
@@ -229,21 +189,98 @@ nav ul{
     #menu-items{
         display:none;
     }
+.nav-items{
+    width:90%;
+    border-radius: 25px;  
+}
+.nav-items:hover{
+              background-color: #FFF5D3;
+}
 
     nav ul li ul li a{
         display:block;
         background-color: #eeeeee;
         color: #142429;
         width:100%;
-        padding:10px 0px;
+        padding:1px 0px;
+        margin: 2px;
         text-align: center;
         border-bottom: 1px solid #142429;
     }
 
         nav ul li ul li a:hover{
             text-decoration: none;
-            color:#F0E1AE;
+            color:#333;
+            font-weight: 700;
         }
+/* Footer =========================== */
+#foot{
+    display:flex;
+    justify-content: center;
+    background-color: #060B10;
+    border-top: 5px solid #0E1A26;
+    
+}
+.footerText{
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.footerIcons{
+    display:flex;
+    justify-content: center;
+}
+
+/* Header =========================== */
+
+.col-lg-12{
+    padding:0;
+}
+
+video{
+z-index: -100;
+ width:100%;   
+}
+
+#video-container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99;
+    background-color: #060B10;
+}
+#myVideo{
+ display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99;
+}
+
+
+.homeText{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   text-align: center;
+   margin-top: 250px; 
+}
+
+
+#github-logo, #linkedin-logo{
+    display: none;
+}
+
 
 /* About =========================== */
 #about{
@@ -541,8 +578,10 @@ textarea{
 }
     
     #video-container{
-        z-index: -100;
         height: 500px;
+    }
+    .btn{
+        z-index: 100;
     }
     
    #myVideo{
@@ -625,6 +664,9 @@ justify-content: center;
 @media only screen and (min-width: 940px){
     #video-container{
         height: 700px;
+    }
+    #header-text{
+        font-size: 3em;
     }
     
     #work{
