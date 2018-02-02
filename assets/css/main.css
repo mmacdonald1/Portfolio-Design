@@ -122,7 +122,8 @@ font-family: 'Noto Sans', sans-serif;
 body,html{
    font-family: 'Noto Sans', sans-serif;
    font-size:16px;
-   color: #eeeeee;  
+   color: #eeeeee;
+   background-color: #060B10;
 }
 html [type=button]{
   -webkit-appearance: none;
@@ -356,7 +357,7 @@ z-index: -100;
     background-image: url("../img/1.jpg");
     background-size:cover;
     opacity: 0.7;
-    height: 500px;
+    height: 700px;
     color: #333;
     text-align: center;
     padding-bottom: 25px;
@@ -429,13 +430,16 @@ z-index: -100;
 /* Contact =========================== */
   #contact{
     background-image:url("../img/user.jpg");
+    opacity: 0.7;
     background-size: cover;
     text-align: center;
     padding: 10px;
     height:500px;
 }
   
-
+.contact-wrapper{
+    
+}
 
 
 
