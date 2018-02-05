@@ -114,7 +114,7 @@ font-family: 'Noto Sans', sans-serif;
 *{
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; 
+  box-sizing: border-box;
     margin:0;
     padding:0;
 }
@@ -131,11 +131,11 @@ html [type=button]{
 
 h1{
    font-size:2em;
-   font-family: 'Shadows Into Light Two', cursive; 
+   font-family: 'Shadows Into Light Two', cursive;
 }
 h2{
     font-size: 1.8em;
-     font-family: 'Shadows Into Light Two', cursive; 
+     font-family: 'Shadows Into Light Two', cursive;
 }
 
 h3{
@@ -193,7 +193,7 @@ nav ul{
     }
 .nav-items{
     width:90%;
-    border-radius: 25px;  
+    border-radius: 25px;
 }
 .nav-items:hover{
     background-color: #FFF5D3;
@@ -215,6 +215,9 @@ nav ul{
             color:#444;
             font-weight: 700;
         }
+  #thispage{
+    text-decoration: underline;
+  }
 /* Footer =========================== */
 #foot{
     display:flex;
@@ -222,7 +225,7 @@ nav ul{
     background-color: #060B10;
     border-top: 5px solid #0E1A26;
     padding-bottom: 20px;
-    
+
 }
 .footerText{
     font-family: 'Shadows Into Light Two', cursive;
@@ -241,7 +244,7 @@ nav ul{
 
 video{
 z-index: -100;
- width:100%;   
+ width:100%;
 }
 
 #video-container{
@@ -277,7 +280,7 @@ z-index: -100;
    right: 0;
    bottom: 0;
    text-align: center;
-   margin-top: 250px; 
+   margin-top: 250px;
 }
 
 
@@ -314,10 +317,10 @@ z-index: -100;
 }
 
 #about{
-   
+
     background-color:#142429;
     padding:15px;
-    
+
 }
 
 .skills{
@@ -353,7 +356,7 @@ z-index: -100;
 .workText{
     margin-top:0;
     padding-top: 30px;
-    font-size: 5em;  
+    font-size: 5em;
 }
 .worksubtext{
     padding-bottom: 35px;
@@ -368,7 +371,7 @@ z-index: -100;
     text-align: center;
     padding-bottom: 25px;
     padding-top: 100px;
-    
+
 }
 .projects{
     background-color: #222;
@@ -432,7 +435,7 @@ z-index: -100;
 }
 .projectDescr a{
     margin:15px;
-    
+
 }
 #cookery{
     height: 300px;
@@ -448,14 +451,14 @@ z-index: -100;
 }
 #hitchhyker{
    width:500px;
-   height:240px; 
+   height:240px;
 }
 .proj-title{
     display: flex;
     justify-content: center;
     font-size: 1.5em;
     text-decoration: underline;
-    
+
 }
 .portfolio-btn{
     background-color: #294A54;
@@ -486,7 +489,7 @@ z-index: -100;
     padding: 10px;
     height:650px;
 }
-  
+
 .contact-wrapper{
     background-color: #333;
     margin-left: 20%;
@@ -585,7 +588,7 @@ z-index: -100;
    ========================================================================== */
 @media only screen and (min-width: 700px) {
 
-/* Header =========================== */  
+/* Header =========================== */
     #dropdown-menu{
         display:none;
     }
@@ -601,7 +604,7 @@ z-index: -100;
     #nav-container{
         width:100%;
     }
-    
+
     nav ul li ul li a{
         width:10%;
         color: #eeeeee;
@@ -632,14 +635,14 @@ z-index: -100;
     flex-direction: row;
     border-bottom: 1px solid #0E1A26;
 }
-    
+
     #video-container{
         height: 500px;
     }
     .btn{
         z-index: 100;
     }
-    
+
    #myVideo{
     display: block;
     position: fixed;
@@ -659,18 +662,18 @@ justify-content: center;
     #about h2{
         margin-left: 3%;
     }
-    
+
     .about-p{
         width:45%;
         margin:15px;
-    }  
-    
+    }
+
 
 
 
 /* Contact =========================== */
 
-  
+
 
 @media only screen and (min-width: 940px){
     #video-container{
@@ -679,12 +682,12 @@ justify-content: center;
     #header-text{
         font-size: 3em;
     }
-    
+
     #work{
         height: 700px;
     }
 }
-    
+
 
 @media only screen and (min-width: 1500px){
     .imageContainer{
