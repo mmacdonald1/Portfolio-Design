@@ -4,7 +4,7 @@ See my current projects and learn a little about me as a developer.
 
 ## Live 
 
-https://www.melmacd.com
+www.melmacd.com
 
 ## Note
  
