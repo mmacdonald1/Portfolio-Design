@@ -196,11 +196,13 @@ nav ul{
     display:block;
 }
 .nav-items{
-    width:90%;
-    border-radius: 25px;
+    width:95%;
+    color:#eee;
+    background-color:#060B10
 }
 .nav-items:hover{
     background-color: #FFF5D3;
+    border-radius: 3px;
 }
 
     nav ul li ul li a{
