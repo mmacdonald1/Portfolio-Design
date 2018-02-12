@@ -30,15 +30,18 @@ window['_fs_namespace'] = 'FS';
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Shadows+Into+Light+Two" rel="stylesheet">
 </head>
 <body>
- <nav>
+  <!--- Navbar --->
+      <div class="col-lg-12">
+
+  <nav>
            <div class= "row" id="nav-container">
             <ul>
               <li><a href="#"><img id ="dropdown-menu" src="assets/img/dropdown.png"></a>
                   <ul id ="menu-items">
                    <div class = "col-lg-2">
-                        <li><a class="nav-items" href="./index.html">Home</a></li>
+                        <li><a id ="thispage" class="nav-items" href="./index.html">Home</a></li>
                         <li><a class="nav-items" href="./about.html">About</a></li>
-                          <li><a id ="thispage" href="./work.html" class="nav-items" >Work</a></li>
+                          <li><a href="./work.html" class="nav-items" >Work</a></li>
                           <li><a class="nav-items" href="./contact.html">Contact</a></li>
                       </div>
                       <div class= "col-lg-10">
@@ -52,6 +55,8 @@ window['_fs_namespace'] = 'FS';
 
             </div>
           </nav>
+
+
 
         <section class="workHeader">
           <h2 class="workText">Portfolio</h2>
@@ -118,4 +123,10 @@ window['_fs_namespace'] = 'FS';
             <a href="https://github.com/mmacdonald1"><img style="height:22px; width:22px; margin-left:10px;" src= "assets/img/footergithub.png"></a>
             </div>
     </footer>
+    
+    <!-- Added a link to Javascript files-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
 </html>

@@ -1,10 +1,6 @@
 $(document).ready(function() {
   $('#dropdown-menu').on('click', function(event) {
-    $('.nav-items').toggleClass('hidden');
+    $('#menu-items').toggleClass('show');
       
-  });
-
-  $('.nav-items').on('click', function(event){
-      $('.nav-items').toggleClass('hidden');
   });
 });

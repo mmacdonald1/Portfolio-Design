@@ -190,8 +190,11 @@ nav ul{
     }
 
     #menu-items{
-        display:block;
+        display:none;
     }
+.show{
+    display:block;
+}
 .nav-items{
     width:90%;
     border-radius: 25px;
