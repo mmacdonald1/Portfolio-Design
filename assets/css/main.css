@@ -150,6 +150,9 @@ a{
     a:hover{
     text-decoration:none;
     }
+    a:focus{  
+    text-decoration:none;
+    }
 p{
     font-size:1em;
 }
@@ -170,6 +173,18 @@ p{
         background-color: #B04D54;
         color:#fff;
         font-weight:700;
+    }
+    .btn:focus{
+background-color: #773439;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: center;
+    height: 3.5em;
+    width: 25%;
+    border:none;
+    z-index: 100;
     }
 
 /* Navbar =========================== */
