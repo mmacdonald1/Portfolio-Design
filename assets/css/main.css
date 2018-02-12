@@ -485,7 +485,11 @@ z-index: -100;
         color:#fff;
         font-weight:700;
     }
-
+.arrow-down{
+    margin-top: 150px;
+    width: 40px;
+    
+}
 /* Contact =========================== */
   #contact{
     background-image:url("../img/user.jpg");
@@ -658,7 +662,12 @@ z-index: -100;
     min-height: 100%;
     z-index: -99;
 }
-
+/* Work ============================  */
+    .arrow-down{
+    margin-top: 150px;
+    width: 40px;
+    
+}
 /* About =========================== */
 #about-container{
 display: flex;
@@ -692,12 +701,22 @@ justify-content: center;
     #work{
         height: 700px;
     }
+    .arrow-down{
+    margin-top: 250px;
+    width: 50px;
+    
+}
 }
 
 
 @media only screen and (min-width: 1500px){
     .imageContainer{
     height: 900px;
+}
+    .arrow-down{
+    margin-top: 260px;
+    width: 50px;
+    
 }
     }
 
