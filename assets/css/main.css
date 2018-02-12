@@ -185,11 +185,12 @@ nav ul{
 }
 
     #dropdown-menu{
+        margin-left: 20px;
         width:10%;
     }
 
     #menu-items{
-        display:none;
+        display:block;
     }
 .nav-items{
     width:90%;
