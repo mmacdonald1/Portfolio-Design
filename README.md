@@ -4,7 +4,7 @@ See my current projects and learn a little about me as a developer.
 
 ## Live 
 
-www.melmacd.com
+https://mmacdonald1.github.io/Portfolio-Design
 
 ## Note
  
